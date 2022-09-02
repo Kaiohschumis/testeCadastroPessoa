@@ -1,0 +1,19 @@
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+       
+       
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let country of countries">
+        <th scope="row">{{ country.id }}</th>
+        <td>{{ country.name }}</td>
+        <td>{{ country.area  }}</td>
+        <td>{{ country.population }}</td>
+      </tr>
+    </tbody>
+  </table>
